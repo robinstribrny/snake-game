@@ -37,7 +37,7 @@ apple = Turtle("apple.gif")
 apple.shapesize(100)
 apple.color("red")
 apple.penup()
-apple.goto(random.randint(-280, 280), random.randint(-280, 250))
+apple.goto(random.randint(-270, 270), random.randint(-270, 270))
 
 # Body settings
 body_parts = []
@@ -98,7 +98,7 @@ while True:
         points += 1
         title = f"Python SnakeGame by Robin Stříbrný | Points: {points}     :)"
         screen.title(title)
-        apple.goto(random.randint(-280, 280), random.randint(-280, 250))
+        apple.goto(random.randint(-270, 270), random.randint(-270, 270))
 
         # "new_body_part" object creating and setting
         new_body_part = Turtle("square")
